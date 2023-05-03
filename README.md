@@ -1,3 +1,1 @@
-This is the repository storing the code for the web page I developed for browsing tasks for the website [Tasker Coming](https://taskercoming.com).
-
-
+This is the repository storing the code for the **Browse Task** web page I developed for browsing tasks for the website **Tasker Coming**. **Tasker Coming** was a project I worked on in a team of ten students as part of the [Web Full-stack Development Bootcamp at JR Academy](https://jracademy.com.au/bootcamp/web-code-bootcamp-or-learn-to-code-1/description/). The domain for the [Tasker Coming](https://taskercoming.com) website is now inactive, however the repository for the code behind the website can still be found on [GitHub](https://github.com/TaskComing).

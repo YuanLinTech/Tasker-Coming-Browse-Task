@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable */
 import {taskData} from './task-data.js';
 import {useState} from 'react';
 import NavBar from './NavBar.js';

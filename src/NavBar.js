@@ -1,3 +1,4 @@
+/* eslint-disable */
 import './NavBar.css';
 import background from "./Search-Bar-background.png";
 

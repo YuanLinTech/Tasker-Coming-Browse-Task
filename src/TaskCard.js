@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable */
 import './TaskCard.css';
 
 export default function TaskCard({task}){

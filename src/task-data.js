@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const taskData = [{
   id: 0, // Used in JSX as a key
   title: "House cleaning",

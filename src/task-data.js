@@ -51,14 +51,14 @@ export const taskData = [{
   create_user_lastname: 'Mann',
   create_user_img_url:"https://assets-airtasker-com.s3.amazonaws.com/uploads/user/avatar/3474874/daizy_photo-058e8447402528ea2c9e136518a83c7e.jpeg?width=256&height=256",
   create_datetime: '2023-02-26T09:26:16.988Z',
-  time_of_day: ['Morning', 'Afternoon'],// array of strings, with contents being 'Morning', 'Midday', 'Afternoon' or 'Evening'
+  time_of_day: ['Morning', 'Afternoon'],// array of strings, with contents being 'Morning', 'Afternoon', 'Evening' or 'Anytime'
   offers: [], // 
   comments: null,
   deleted: false // Boolean
 },
 {
   id: 2, // Used in JSX as a key
-  title: "Clean my apartment with an eye for detail",
+  title: "Apartment cleaning with an eye for detail",
   due_date: new Date('2023-03-10'),
   remote: false, // true = remote, false = in person
   locality: "St Kilda",
@@ -76,7 +76,7 @@ export const taskData = [{
   create_user_lastname: 'Sloane',
   create_user_img_url:"https://assets-airtasker-com.s3.amazonaws.com/uploads/user/avatar/6180656/794af921-b584-4da0-bcf8-feee8d793887-a64c47f27ebb91d70972680a6d35cbbf.jpg?width=256&height=256",
   create_datetime: '2023-02-26T01:26:16.988Z',
-  time_of_day: ['Afternoon', 'Evening'],
+  time_of_day: ['Anytime'],
   offers: [
   {id: 0, text: `Hi Mikhiala,
   I'm a well experienced cleaner. I have covid vaccination boosted.
@@ -101,4 +101,53 @@ export const taskData = [{
 
   comments: null,
   deleted: false // Boolean
-}];
+},
+{
+  id: 3, // Used in JSX as a key
+  title: "Board up a house",
+  due_date: new Date('2023-07-15'),
+  remote: false, // true = remote, false = in person
+  locality: "Footscray",
+  state: 'VIC',
+  detail: `1. Supply and install plywood to board up two front windows (2.8m wide x 1.8m high)
+  2. Supply and install plywood to close the gap between the black gate and fence (2m high x 0.4m wide)
+  -
+  Due date: Flexible `,
+  image_URL: "https://assets-airtasker-com.s3.amazonaws.com/uploads/message_asset/message_attachment/d852fa04f1e4d3ab689fc0f708744604/modal_219f54a4-c77a-4898-892b-990a1b8d9966-70f19762789ebf9a259fc5cb15dca561.jpg",
+  budget: 200,
+  type: null,
+  categories: "Labour",
+  Status: 'Open',// Open, Assigned, Canceled, Completed
+  final_price: 180,
+  create_user_firstname: 'Matt', // id of the task poster
+  create_user_lastname: 'Thompson',
+  create_user_img_url:"https://eu7cmie.cloudimg.io/v7/https://eu7cmie.cloudimg.io/v7/https://airtasker-seo-assets-prod.s3.amazonaws.com/en_AU/1670924334504_avatar-placeholder-240x240.png?width=256&height=256",
+  create_datetime: '2023-07-15T08:41:24.988Z',
+  time_of_day: ['Anytime'],
+  offers: [
+  {id: 0, text: `Hi Matt, my offer is to supply and fix ply to all areas required, 
+  taking all my rubbish with me,  leaving the property clean,  regards david`, 
+  price: 140, Status: 'Pending', attached_file_url: null, 
+  create_user_firstname: 'David', create_user_lastname: 'Kemp',
+  create_user_img_url: "https://eu7cmie.cloudimg.io/v7/https://assets-airtasker-com.s3.amazonaws.com/uploads/user/avatar/2469562/Resized_20180118_072116001-36b900584d1e108912de52f28baa560f.jpeg?width=256&height=256",
+  create_datetime: new Date('2023-07-15T09:01:24.988Z')}, 
+
+  {id: 1, text: `Qualified carpenter offer includes all materials fees gst and labour thanks`, 
+  price: 150, Status: 'Pending', attached_file_url: null, 
+  create_user_firstname: 'Alexander', create_user_lastname: 'Asher',
+  create_user_img_url: "https://eu7cmie.cloudimg.io/v7/https://assets-airtasker-com.s3.amazonaws.com/uploads/user/avatar/1712772/image-be5d1623a8908a85308f679d167405fe.jpg?width=256&height=256",
+  create_datetime: new Date('2023-07-15T09:11:24.988Z')},
+
+  {id: 2, text: `I'm happy to assist you with the task as described. 
+  My offer includes materials, gst, fees and labour and I'm available Friday to complete your task.
+  I'm an experienced handyman, film set builder (carpentry and joining) and artist, please check my portfolio and reviews.`, 
+  price: 180, Status: 'Pending', attached_file_url: null, 
+  create_user_firstname: 'Bradley', create_user_lastname: 'O\'Brien',
+  create_user_img_url: "https://eu7cmie.cloudimg.io/v7/https://assets-airtasker-com.s3.amazonaws.com/uploads/user/avatar/1766513/image-b2ba5ad484d6c7831ae8bbc03dfef9b4.jpg?width=256&height=256",
+  create_datetime: new Date('2023-07-15T09:41:24.988Z')}
+  ], 
+
+  comments: null,
+  deleted: false // Boolean
+}
+];
